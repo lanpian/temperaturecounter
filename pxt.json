@@ -1,0 +1,19 @@
+{
+    "name": "temperaturecounter",
+    "version": "0.0.0",
+    "description": "temperature counter",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "main.blocks",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "preferredEditor": "blocksprj"
+}
