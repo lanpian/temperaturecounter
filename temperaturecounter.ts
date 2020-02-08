@@ -8,7 +8,7 @@ enum TurtlePenMode {
  * Turtle graphics blocks
  */
 //% weight=100 color=#0f9c11 icon="\uf188"
-namespace temperature {
+namespace turtle {
     let _x: number;
     let _y: number;
     let _direction: number; // 0 right, 1 down, 2 left, 3 top
