@@ -7,7 +7,7 @@ enum TurtlePenMode {
 /**
  * Turtle graphics blocks
  */
-//% weight=100 color=#0fbc11 icon="\uf06b" block="Second Counter"
+//% weight=100 color=#0f9c11 icon="\uf188" block="Second Counter"
 namespace tempcounter {
     let _x: number;
     let _y: number;
