@@ -8,7 +8,7 @@ enum TurtlePenMode {
  * Turtle graphics blocks
  */
 //% weight=100 color=#0f9c11 icon="\uf188"
-namespace turtle {
+namespace SecCounter {
     let _x: number;
     let _y: number;
     let _direction: number; // 0 right, 1 down, 2 left, 3 top
@@ -26,11 +26,11 @@ namespace turtle {
             _direction = 3;
             _brightness = 128;
             _img = images.createImage(`
+                . # . # .
                 . . . . .
+                . # . # .
                 . . . . .
-                . . . . .
-                . . . . .
-                . . . . .
+                . # . # .
                 `)
             basic.clearScreen();
         }
