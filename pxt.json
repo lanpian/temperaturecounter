@@ -1,6 +1,6 @@
 {
-    "name": "temperaturecounter",
-    "version": "0.0.0",
+    "name": "Counter",
+    "version": "0.0.9",
     "description": "temperature counter",
     "dependencies": {
         "core": "*",
