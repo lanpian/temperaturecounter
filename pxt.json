@@ -8,7 +8,7 @@
     },
     "files": [
         "README.md",
-        "turtle.ts"
+        "temperaturecounter.ts"
     ],
     "testFiles": [
         "test.ts"
