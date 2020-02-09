@@ -1,5 +1,5 @@
 {
-    "name": "Counter",
+    "name": "SecCounter",
     "version": "0.0.9",
     "description": "temperature counter",
     "dependencies": {
