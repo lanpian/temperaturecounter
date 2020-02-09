@@ -8,7 +8,7 @@ enum TurtlePenMode {
  * Turtle graphics blocks
  */
 //% weight=100 color=#0fbc11 icon="\uf06b" block="Second Counter"
-namespace turtle {
+namespace tempcounter {
     let _x: number;
     let _y: number;
     let _direction: number; // 0 right, 1 down, 2 left, 3 top
