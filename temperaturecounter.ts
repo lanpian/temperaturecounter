@@ -19,18 +19,18 @@ namespace SecCounter {
 
     function init() {
         if (!_img) {
-            led.setBrightness(255);
+            led.setBrightness(128);
             led.setDisplayMode(DisplayMode.Greyscale);
             _x = 2;
             _y = 2;
             _direction = 3;
             _brightness = 128;
             _img = images.createImage(`
-                . # . # .
-                . . . . .
-                . # . # .
-                . . . . .
-                . # . # .
+                . # # # .
+                # . . . #
+                # . . . #
+                # . . . #
+                . # # # .
                 `)
             basic.clearScreen();
         }
