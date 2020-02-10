@@ -49,10 +49,10 @@ namespace SecCounter {
 			 itemx = _secx[(index-1 + 12) % 12]
 			 itemy = _secy[(index-1 + 12 ) % 12]
 
-			 led.plotBrightness(itemy,itemx,255)
+			 led.plot(itemy,itemx)
 			 itemx = _secx[index]
 			 itemy = _secy[index]
-			 led.plotBrightness(itemy,itemx,128)
+			 led.unplot(itemy,itemx)
 		}
 	
     }
