@@ -7,7 +7,7 @@ enum TurtlePenMode {
 /**
  * Turtle graphics blocks
  */
-//% weight=100 color=#0f9c11 icon="\uf188"
+//% weight=100 color=#0f9c11 icon="\uf1eb"
 namespace SecCounter {
     let _x: number;
     let _y: number;
