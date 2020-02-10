@@ -17,7 +17,7 @@ namespace SecCounter {
             led.setDisplayMode(DisplayMode.Greyscale);
             _brightness = 128;
             _img = images.createImage(`
-                . # # # .
+                . # . # .
                 # . # . #
                 # . # . #
                 # . . . #
